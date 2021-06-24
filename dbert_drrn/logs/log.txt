@@ -1,0 +1,722 @@
+-----------------------------------
+| EnvStep              | 592      |
+| EpisodeScore         | -3.12    |
+| FPS                  | 4.99     |
+| Last100EpisodeScores | -3.12    |
+| Loss                 | 0.0903   |
+| Max score seen       | 10       |
+| Step                 | 100      |
+-----------------------------------
+mailbox', 'north', 'west', 'south']
+Qvalues1: [0.09, 0.07, 0.05, 0.03]
+>> Action1: west
+Reward1: 0, Score 0, Done False
+
+State  2: forest this is a forest, with trees in all directions. to the east, there appears to be sunlight.  you are empty handed.  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight.
+Actions2: ['north', 'go around trees', 'east', 'south']
+Qvalues2: [0.06, 0.04, 0.03, 0.03]
+>> Action2: go around trees
+Reward2: 0, Score 0, Done False
+
+State  3: forest this is a dimly lit forest, with large trees all around.  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions3: ['west', 'south', 'east', 'go around trees']
+Qvalues3: [0.08, 0.07, 0.07, 0.06]
+>> Action3: west
+Reward3: 0, Score 0, Done False
+
+State  4: forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.  you are empty handed. you hear in the distance the chirping of a song bird.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. you hear in the distance the chirping of a song bird.
+Actions4: ['go around forest', 'west', 'north', 'up', 'east', 'south']
+Qvalues4: [-0.01, -0.01, -0.02, -0.03, -0.04, -0.04]
+>> Action4: go around forest
+Reward4: 0, Score 0, Done False
+
+State  5: clearing you are in a small clearing in a well marked forest path that extends to the east and west.  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions5: ['go around forest', 'west', 'north', 'south', 'east']
+Qvalues5: [0.07, 0.07, 0.06, 0.05, 0.05]
+>> Action5: go around forest
+Reward5: 0, Score 0, Done False
+
+State  6: forest  you are empty handed.  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight. you hear in the distance the chirping of a song bird.
+Actions6: ['go around trees', 'north', 'south', 'east']
+Qvalues6: [0.06, 0.05, 0.03, 0.03]
+>> Action6: south
+Reward6: 0, Score 0, Done False
+
+State  7: forest this is a dimly lit forest, with large trees all around.  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions7: ['north', 'west', 'northwest', 'go around trees']
+Qvalues7: [0.08, 0.08, 0.08, 0.06]
+>> Action7: go around trees
+Reward7: 0, Score 0, Done False
+
+State  8: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. you hear in the distance the chirping of a song bird.
+Actions8: ['west', 'north', 'south', 'east', 'go around forest', 'up']
+Qvalues8: [0.09, 0.07, 0.06, 0.06, 0.06, 0.05]
+>> Action8: west
+Reward8: 0, Score 0, Done False
+
+State  9: forest  you are empty handed.  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight. you hear in the distance the chirping of a song bird.
+Actions9: ['north', 'go around trees', 'east', 'south']
+Qvalues9: [0.16, 0.16, 0.15, 0.13]
+>> Action9: south
+Reward9: 0, Score 0, Done False
+
+State  10: forest  you are empty handed. you hear in the distance the chirping of a song bird.  forest this is a dimly lit forest, with large trees all around.
+Actions10: ['north', 'northwest', 'west', 'go around trees']
+Qvalues10: [0.1, 0.09, 0.07, 0.07]
+>> Action10: north
+Reward10: 0, Score 0, Done False
+
+State  11: clearing  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions11: ['go around forest', 'north', 'west', 'south', 'east']
+Qvalues11: [0.1, 0.1, 0.09, 0.08, 0.08]
+>> Action11: east
+Reward11: 0, Score 0, Done False
+
+State  12: canyon view you are at the top of the great canyon on its west wall. from here there is a marvelous view of the canyon and parts of the frigid river upstream. across the canyon, the walls of the white cliffs join the mighty ramparts of the flathead mountains to the east. following the canyon upstream to the north, aragain falls may be seen, complete with rainbow. the mighty frigid river flows out from a great dark cavern. to the west and south can be seen an immense forest, stretching for miles around. a path leads northwest. it is possible to climb down into the canyon from here.  you are empty handed.  canyon view you are at the top of the great canyon on its west wall. from here there is a marvelous view of the canyon and parts of the frigid river upstream. across the canyon, the walls of the white cliffs join the mighty ramparts of the flathead mountains to the east. following the canyon upstream to the north, aragain falls may be seen, complete with rainbow. the mighty frigid river flows out from a great dark cavern. to the west and south can be seen an immense forest, stretching for miles around. a path leads northwest. it is possible to climb down into the canyon from here.
+Actions12: ['jump', 'northwest', 'west', 'east']
+Qvalues12: [0.1, 0.08, 0.05, 0.04]
+>> Action12: jump
+Reward12: -10, Score -10, Done True
+
+State  13: nice view, lousy place to jump.            you have died         now, let's take a look here... well, you probably deserve another chance. i can't quite fix you up completely, but you can't have everything.  forest  unknownunknown
+Actions13: ['wait', 'yes', 'no']
+Qvalues13: [0.11, 0.09, 0.08]
+>> Action13: reset
+Reward13: 0, Score 0, Done False
+
+State  14: Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK is a registered trademark of Infocom, Inc. Revision 88 / Serial number 840726  West of House You are standing in an open field west of a white house, with a boarded front door. There is a small mailbox here.  You are empty handed.  West of House You are standing in an open field west of a white house, with a boarded front door. There is a small mailbox here.
+Actions14: ['open mailbox', 'west', 'north', 'south']
+Qvalues14: [0.24, 0.2, 0.19, 0.19]
+>> Action14: west
+Reward14: 0, Score 0, Done False
+
+State  15: forest this is a forest, with trees in all directions. to the east, there appears to be sunlight.  you are empty handed.  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight.
+Actions15: ['north', 'go around trees', 'south', 'east']
+Qvalues15: [0.2, 0.19, 0.18, 0.18]
+>> Action15: east
+Reward15: 0, Score 0, Done False
+
+State  16: forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions16: ['go around forest', 'up', 'north', 'west', 'south', 'east']
+Qvalues16: [0.17, 0.17, 0.15, 0.14, 0.13, 0.13]
+>> Action16: north
+Reward16: 0, Score 0, Done False
+
+State  17: clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. on the ground is a pile of leaves.  you are empty handed.  clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. on the ground is a pile of leaves.
+Actions17: ['west', 'south', 'take leaves', 'pull leaves', 'east']
+Qvalues17: [0.29, 0.28, 0.28, 0.28, 0.27]
+>> Action17: west
+Reward17: 0, Score 0, Done False
+
+State  18: forest  you are empty handed. you hear in the distance the chirping of a song bird.  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight. you hear in the distance the chirping of a song bird.
+Actions18: ['north', 'south', 'go around trees', 'east']
+Qvalues18: [0.28, 0.26, 0.25, 0.25]
+>> Action18: east
+Reward18: 0, Score 0, Done False
+
+State  19: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. you hear in the distance the chirping of a song bird.
+Actions19: ['up', 'north', 'go around forest', 'south', 'east', 'west']
+Qvalues19: [0.33, 0.33, 0.32, 0.32, 0.31, 0.31]
+>> Action19: south
+Reward19: 0, Score 0, Done False
+
+State  20: north of house you are facing the north side of a white house. there is no door here, and all the windows are boarded up. to the north a narrow path winds through the trees.  you are empty handed.  north of house you are facing the north side of a white house. there is no door here, and all the windows are boarded up. to the north a narrow path winds through the trees.
+Actions20: ['west', 'north', 'east']
+Qvalues20: [0.25, 0.25, 0.23]
+>> Action20: east
+Reward20: 0, Score 0, Done False
+
+State  21: behind house you are behind the white house. a path leads into the forest to the east. in one corner of the house there is a small window which is slightly ajar.  you are empty handed.  behind house you are behind the white house. a path leads into the forest to the east. in one corner of the house there is a small window which is slightly ajar.
+Actions21: ['open window', 'north', 'south', 'east']
+Qvalues21: [0.34, 0.32, 0.3, 0.29]
+>> Action21: east
+Reward21: 0, Score 0, Done False
+
+State  22: clearing you are in a small clearing in a well marked forest path that extends to the east and west.  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions22: ['go around forest', 'west', 'north', 'south', 'east']
+Qvalues22: [0.2, 0.19, 0.17, 0.16, 0.16]
+>> Action22: north
+Reward22: 0, Score 0, Done False
+
+State  23: forest this is a dimly lit forest, with large trees all around.  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions23: ['west', 'go around trees', 'east', 'south']
+Qvalues23: [0.33, 0.32, 0.31, 0.31]
+>> Action23: east
+Reward23: 0, Score 0, Done False
+
+State  24: forest the forest thins out, revealing impassable mountains.  you are empty handed.  forest the forest thins out, revealing impassable mountains.
+Actions24: ['north']
+Qvalues24: [0.21]
+>> Action24: north
+Reward24: 0, Score 0, Done False
+
+State  25: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around. you hear in the distance the chirping of a song bird.
+Actions25: ['west', 'east', 'south', 'go around trees']
+Qvalues25: [0.35, 0.33, 0.33, 0.32]
+>> Action25: go around trees
+Reward25: 0, Score 0, Done False
+
+State  26: forest this is a dimly lit forest, with large trees all around.  you are empty handed.  forest this is a dimly lit forest, with large trees all around. you hear in the distance the chirping of a song bird.
+Actions26: ['north', 'west', 'northwest', 'go around trees']
+Qvalues26: [0.38, 0.37, 0.37, 0.37]
+>> Action26: northwest
+Reward26: 0, Score 0, Done False
+
+State  27: south of house you are facing the south side of a white house. there is no door here, and all the windows are boarded.  you are empty handed.  south of house you are facing the south side of a white house. there is no door here, and all the windows are boarded.
+Actions27: ['west', 'south', 'east']
+Qvalues27: [0.34, 0.32, 0.32]
+>> Action27: south
+Reward27: 0, Score 0, Done False
+
+State  28: forest  you are empty handed. you hear in the distance the chirping of a song bird.  forest this is a dimly lit forest, with large trees all around.
+Actions28: ['north', 'west', 'northwest', 'go around trees']
+Qvalues28: [0.29, 0.28, 0.28, 0.26]
+>> Action28: west
+Reward28: 0, Score 0, Done False
+
+State  29: forest  you are empty handed.  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight.
+Actions29: ['north', 'south', 'east', 'go around trees']
+Qvalues29: [0.32, 0.3, 0.29, 0.29]
+>> Action29: east
+Reward29: 0, Score 0, Done False
+
+State  30: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions30: ['up', 'go around forest', 'north', 'west', 'south', 'east']
+Qvalues30: [0.4, 0.38, 0.35, 0.35, 0.33, 0.33]
+>> Action30: up
+Reward30: 0, Score 0, Done False
+
+State  31: up a tree you are about 10 feet above the ground nestled among some large branches. the nearest branch above you is above your reach. beside you on the branch is a small bird's nest. in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother of pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile.  you are empty handed.  up a tree you are about 10 feet above the ground nestled among some large branches. the nearest branch above you is above your reach. beside you on the branch is a small bird's nest. in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother of pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile.
+Actions31: ['take egg', 'take on egg', 'take nest', 'close nest', 'down']
+Qvalues31: [0.75, 0.74, 0.61, 0.59, 0.58]
+>> Action31: down
+Reward31: 0, Score 0, Done False
+
+State  32: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions32: ['up', 'west', 'go around forest', 'north', 'east', 'south']
+Qvalues32: [0.31, 0.28, 0.28, 0.26, 0.24, 0.23]
+>> Action32: east
+Reward32: 0, Score 0, Done False
+
+State  33: forest you hear in the distance the chirping of a song bird.  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions33: ['west', 'south', 'east', 'go around trees']
+Qvalues33: [0.35, 0.33, 0.32, 0.31]
+>> Action33: go around trees
+Reward33: 0, Score 0, Done False
+
+State  34: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions34: ['north', 'west', 'northwest', 'go around trees']
+Qvalues34: [0.37, 0.36, 0.35, 0.33]
+>> Action34: north
+Reward34: 0, Score 0, Done False
+
+State  35: clearing  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions35: ['go around forest', 'north', 'west', 'south', 'east']
+Qvalues35: [0.43, 0.43, 0.42, 0.39, 0.38]
+>> Action35: east
+Reward35: 0, Score 0, Done False
+
+State  36: canyon view you are at the top of the great canyon on its west wall. from here there is a marvelous view of the canyon and parts of the frigid river upstream. across the canyon, the walls of the white cliffs join the mighty ramparts of the flathead mountains to the east. following the canyon upstream to the north, aragain falls may be seen, complete with rainbow. the mighty frigid river flows out from a great dark cavern. to the west and south can be seen an immense forest, stretching for miles around. a path leads northwest. it is possible to climb down into the canyon from here.  you are empty handed.  canyon view you are at the top of the great canyon on its west wall. from here there is a marvelous view of the canyon and parts of the frigid river upstream. across the canyon, the walls of the white cliffs join the mighty ramparts of the flathead mountains to the east. following the canyon upstream to the north, aragain falls may be seen, complete with rainbow. the mighty frigid river flows out from a great dark cavern. to the west and south can be seen an immense forest, stretching for miles around. a path leads northwest. it is possible to climb down into the canyon from here.
+Actions36: ['west', 'northwest', 'east', 'jump']
+Qvalues36: [0.13, 0.12, 0.09, 0.05]
+>> Action36: northwest
+Reward36: 0, Score 0, Done False
+
+State  37: clearing  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions37: ['west', 'north', 'go around forest', 'south', 'east']
+Qvalues37: [0.43, 0.42, 0.41, 0.4, 0.39]
+>> Action37: north
+Reward37: 0, Score 0, Done False
+
+State  38: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions38: ['west', 'south', 'east', 'go around trees']
+Qvalues38: [0.35, 0.31, 0.31, 0.28]
+>> Action38: east
+Reward38: 0, Score 0, Done False
+
+State  39: forest  you are empty handed.  forest the forest thins out, revealing impassable mountains.
+Actions39: ['north']
+Qvalues39: [0.33]
+>> Action39: north
+Reward39: 0, Score 0, Done False
+
+State  40: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around. you hear in the distance the chirping of a song bird.
+Actions40: ['west', 'south', 'east', 'go around trees']
+Qvalues40: [0.41, 0.38, 0.36, 0.36]
+>> Action40: south
+Reward40: 0, Score 0, Done False
+
+State  41: clearing  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions41: ['go around forest', 'north', 'west', 'south', 'east']
+Qvalues41: [0.38, 0.37, 0.36, 0.34, 0.32]
+>> Action41: east
+Reward41: 0, Score 0, Done False
+
+State  42: canyon view  you are empty handed.  canyon view you are at the top of the great canyon on its west wall. from here there is a marvelous view of the canyon and parts of the frigid river upstream. across the canyon, the walls of the white cliffs join the mighty ramparts of the flathead mountains to the east. following the canyon upstream to the north, aragain falls may be seen, complete with rainbow. the mighty frigid river flows out from a great dark cavern. to the west and south can be seen an immense forest, stretching for miles around. a path leads northwest. it is possible to climb down into the canyon from here.
+Actions42: ['west', 'northwest', 'east', 'jump']
+Qvalues42: [0.27, 0.26, 0.23, 0.21]
+>> Action42: west
+Reward42: 0, Score 0, Done False
+
+State  43: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions43: ['north', 'northwest', 'west', 'go around trees']
+Qvalues43: [0.43, 0.42, 0.42, 0.4]
+>> Action43: go around trees
+Reward43: 0, Score 0, Done False
+
+State  44: forest path  you are empty handed. you hear in the distance the chirping of a song bird.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions44: ['up', 'go around forest', 'north', 'west', 'south', 'east']
+Qvalues44: [0.46, 0.42, 0.4, 0.38, 0.36, 0.34]
+>> Action44: east
+Reward44: 0, Score 0, Done False
+
+State  45: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions45: ['west', 'go around trees', 'south', 'east']
+Qvalues45: [0.38, 0.36, 0.36, 0.34]
+>> Action45: west
+Reward45: 0, Score 0, Done False
+
+State  46: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions46: ['go around forest', 'up', 'west', 'north', 'south', 'east']
+Qvalues46: [0.4, 0.4, 0.38, 0.36, 0.35, 0.34]
+>> Action46: east
+Reward46: 0, Score 0, Done False
+
+State  47: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions47: ['west', 'south', 'go around trees', 'east']
+Qvalues47: [0.28, 0.26, 0.26, 0.24]
+>> Action47: south
+Reward47: 0, Score 0, Done False
+
+State  48: clearing  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions48: ['go around forest', 'north', 'west', 'south', 'east']
+Qvalues48: [0.39, 0.35, 0.35, 0.32, 0.3]
+>> Action48: south
+Reward48: 0, Score 0, Done False
+
+State  49: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions49: ['north', 'west', 'northwest', 'go around trees']
+Qvalues49: [0.36, 0.36, 0.36, 0.35]
+>> Action49: north
+Reward49: 0, Score 0, Done False
+
+State  50: clearing  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions50: ['go around forest', 'north', 'west', 'south', 'east']
+Qvalues50: [0.41, 0.37, 0.36, 0.33, 0.32]
+>> Action50: north
+Reward50: 0, Score 0, Done False
+
+State  51: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around. you hear in the distance the chirping of a song bird.
+Actions51: ['west', 'go around trees', 'south', 'east']
+Qvalues51: [0.42, 0.4, 0.38, 0.37]
+>> Action51: south
+Reward51: 0, Score 0, Done False
+
+State  52: clearing  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions52: ['go around forest', 'west', 'north', 'south', 'east']
+Qvalues52: [0.45, 0.42, 0.41, 0.38, 0.37]
+>> Action52: north
+Reward52: 0, Score 0, Done False
+
+State  53: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions53: ['west', 'go around trees', 'south', 'east']
+Qvalues53: [0.4, 0.35, 0.35, 0.34]
+>> Action53: west
+Reward53: 0, Score 0, Done False
+
+State  54: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions54: ['up', 'go around forest', 'west', 'north', 'south', 'east']
+Qvalues54: [0.43, 0.35, 0.32, 0.31, 0.28, 0.27]
+>> Action54: up
+Reward54: 0, Score 0, Done False
+
+State  55: up a tree beside you on the branch is a small bird's nest. in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother of pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile.  you are empty handed.  up a tree you are about 10 feet above the ground nestled among some large branches. the nearest branch above you is above your reach. beside you on the branch is a small bird's nest. in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother of pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile. you hear in the distance the chirping of a song bird.
+Actions55: ['take egg', 'take on egg', 'take nest', 'close nest', 'down']
+Qvalues55: [0.87, 0.86, 0.71, 0.67, 0.62]
+>> Action55: close nest
+Reward55: 0, Score 0, Done False
+
+State  56: closed.  you are empty handed.  up a tree you are about 10 feet above the ground nestled among some large branches. the nearest branch above you is above your reach. beside you on the branch is a small bird's nest.
+Actions56: ['open nest', 'take nest', 'down']
+Qvalues56: [0.4, 0.39, 0.34]
+>> Action56: open nest
+Reward56: 0, Score 0, Done False
+
+State  57: the bird's nest opens. in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother of pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile.  you are empty handed. you hear in the distance the chirping of a song bird.  up a tree you are about 10 feet above the ground nestled among some large branches. the nearest branch above you is above your reach. there is a bird's nest here. in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother of pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile.
+Actions57: ['take on egg', 'take egg', 'take nest', 'close nest', 'down']
+Qvalues57: [0.73, 0.72, 0.57, 0.55, 0.5]
+>> Action57: down
+Reward57: 0, Score 0, Done False
+
+State  58: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions58: ['up', 'go around forest', 'west', 'north', 'south', 'east']
+Qvalues58: [0.5, 0.45, 0.44, 0.43, 0.41, 0.4]
+>> Action58: north
+Reward58: 0, Score 0, Done False
+
+State  59: clearing on the ground is a pile of leaves.  you are empty handed.  clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. on the ground is a pile of leaves.
+Actions59: ['take leaves', 'pull leaves', 'west', 'south', 'east']
+Qvalues59: [0.44, 0.4, 0.37, 0.34, 0.33]
+>> Action59: pull leaves
+Reward59: 0, Score 0, Done False
+
+State  60: done. in disturbing the pile of leaves, a grating is revealed.  you are empty handed.  clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. there is a grating securely fastened into the ground. on the ground is a pile of leaves.
+Actions60: ['take leaves', 'west', 'south', 'east']
+Qvalues60: [0.51, 0.43, 0.4, 0.39]
+>> Action60: take leaves
+Reward60: 0, Score 0, Done False
+
+State  61: taken.  you are carrying:   a pile of leaves  clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. there is a grating securely fastened into the ground.
+Actions61: ['put down leaves', 'west', 'east', 'south']
+Qvalues61: [0.58, 0.52, 0.48, 0.47]
+>> Action61: put down leaves
+Reward61: 0, Score 0, Done False
+
+State  62: dropped.  you are empty handed.  clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. there is a grating securely fastened into the ground. on the ground is a pile of leaves.
+Actions62: ['take leaves', 'west', 'south', 'east']
+Qvalues62: [0.51, 0.42, 0.39, 0.38]
+>> Action62: west
+Reward62: 0, Score 0, Done False
+
+State  63: forest  you are empty handed.  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight.
+Actions63: ['north', 'south', 'go around trees', 'east']
+Qvalues63: [0.33, 0.31, 0.31, 0.3]
+>> Action63: east
+Reward63: 0, Score 0, Done False
+
+State  64: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. you hear in the distance the chirping of a song bird.
+Actions64: ['up', 'west', 'north', 'go around forest', 'south', 'east']
+Qvalues64: [0.25, 0.17, 0.16, 0.14, 0.13, 0.12]
+>> Action64: north
+Reward64: 0, Score 0, Done False
+
+State  65: clearing on the ground is a pile of leaves.  you are empty handed.  clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. there is a grating securely fastened into the ground. on the ground is a pile of leaves.
+Actions65: ['take leaves', 'west', 'south', 'east']
+Qvalues65: [0.33, 0.28, 0.24, 0.23]
+>> Action65: take leaves
+Reward65: 0, Score 0, Done False
+
+State  66: taken.  you are carrying:   a pile of leaves  clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. there is a grating securely fastened into the ground.
+Actions66: ['put down leaves', 'west', 'south', 'east']
+Qvalues66: [0.48, 0.42, 0.37, 0.36]
+>> Action66: put down leaves
+Reward66: 0, Score 0, Done False
+
+State  67: dropped.  you are empty handed.  clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. there is a grating securely fastened into the ground. on the ground is a pile of leaves.
+Actions67: ['take leaves', 'west', 'south', 'east']
+Qvalues67: [0.2, 0.17, 0.12, 0.12]
+>> Action67: south
+Reward67: 0, Score 0, Done False
+
+State  68: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions68: ['up', 'west', 'north', 'go around forest', 'south', 'east']
+Qvalues68: [0.32, 0.24, 0.24, 0.23, 0.21, 0.21]
+>> Action68: east
+Reward68: 0, Score 0, Done False
+
+State  69: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions69: ['west', 'south', 'east', 'go around trees']
+Qvalues69: [0.33, 0.3, 0.29, 0.23]
+>> Action69: west
+Reward69: 0, Score 0, Done False
+
+State  70: forest path you hear in the distance the chirping of a song bird.  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions70: ['up', 'west', 'north', 'go around forest', 'east', 'south']
+Qvalues70: [0.37, 0.34, 0.32, 0.3, 0.29, 0.29]
+>> Action70: go around forest
+Reward70: 0, Score 0, Done False
+
+State  71: clearing  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions71: ['west', 'north', 'south', 'go around forest', 'east']
+Qvalues71: [0.27, 0.27, 0.25, 0.25, 0.23]
+>> Action71: south
+Reward71: 0, Score 0, Done False
+
+State  72: forest  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions72: ['northwest', 'west', 'north', 'go around trees']
+Qvalues72: [0.26, 0.26, 0.24, 0.19]
+>> Action72: go around trees
+Reward72: 0, Score 0, Done False
+
+State  73: forest path  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions73: ['up', 'west', 'north', 'go around forest', 'east', 'south']
+Qvalues73: [0.34, 0.31, 0.29, 0.27, 0.26, 0.26]
+>> Action73: up
+Reward73: 0, Score 0, Done False
+
+State  74: up a tree there is a bird's nest here. in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother of pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile.  you are empty handed.  up a tree you are about 10 feet above the ground nestled among some large branches. the nearest branch above you is above your reach. there is a bird's nest here. in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother of pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile.
+Actions74: ['take egg', 'take on egg', 'take nest', 'close nest', 'down']
+Qvalues74: [0.69, 0.68, 0.51, 0.49, 0.49]
+>> Action74: take nest
+Reward74: 0, Score 0, Done False
+
+State  75: taken. you hear in the distance the chirping of a song bird.  you are carrying:   a bird's nest   the bird's nest contains:     a jewel encrusted egg  up a tree you are about 10 feet above the ground nestled among some large branches. the nearest branch above you is above your reach.
+Actions75: ['take egg', 'put down egg', 'take on egg', 'open egg with nest', 'throw nest at egg', 'put down nest', 'throw egg at tree', 'close nest', 'shake nest', 'down', 'throw nest at tree']
+Qvalues75: [0.77, 0.77, 0.75, 0.67, 0.65, 0.63, 0.62, 0.61, 0.6, 0.59, 0.55]
+>> Action75: down
+Reward75: 0, Score 0, Done False
+
+State  76: forest path  you are carrying:   a bird's nest   the bird's nest contains:     a jewel encrusted egg  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions76: ['take egg', 'put down egg', 'take on egg', 'up', 'north', 'west', 'open egg with nest', 'south', 'east', 'close nest', 'throw egg at tree', 'put down nest', 'throw nest at egg', 'shake nest', 'go around forest']
+Qvalues76: [0.7, 0.67, 0.66, 0.63, 0.62, 0.61, 0.61, 0.58, 0.57, 0.57, 0.57, 0.57, 0.57, 0.57, 0.56]
+>> Action76: take on egg
+Reward76: 0, Score 0, Done False
+
+State  77: there is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged. there is a golden clockwork canary nestled in the egg. it seems to have recently had a bad experience. the mountings for its jewel like eyes are empty, and its silver beak is crumpled. through a cracked crystal window below its left wing you can see the remains of intricate machinery. it is not clear what result winding it would have, as the mainspring seems sprung.  you are carrying:   a bird's nest   the bird's nest contains:     a broken jewel encrusted egg there is a golden clockwork canary nestled in the egg. it seems to have recently had a bad experience. the mountings for its jewel like eyes are empty, and its silver beak is crumpled. through a cracked crystal window below its left wing you can see the remains of intricate machinery. it is not clear what result winding it would have, as the mainspring seems sprung.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path.
+Actions77: ['take egg', 'put down egg', 'shake egg', 'close egg', 'put canary in nest', 'take canary', 'west', 'put down nest', 'north', 'up', 'close nest', 'south', 'east', 'go around forest', 'shake nest']
+Qvalues77: [0.72, 0.71, 0.67, 0.66, 0.64, 0.64, 0.6, 0.59, 0.59, 0.58, 0.57, 0.56, 0.55, 0.55, 0.55]
+>> Action77: shake egg
+Reward77: 0, Score 0, Done False
+
+State  78: the contents of the broken jewel encrusted egg spills to the ground.  you are carrying:   a bird's nest   the bird's nest contains:     a broken jewel encrusted egg  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. there is a broken clockwork canary here. you hear in the distance the chirping of a song bird.
+Actions78: ['take egg', 'put down egg', 'close egg', 'take canary', 'north', 'up', 'west', 'go around forest', 'south', 'put down nest', 'close nest', 'east', 'shake nest']
+Qvalues78: [0.55, 0.52, 0.49, 0.48, 0.46, 0.45, 0.43, 0.43, 0.42, 0.41, 0.41, 0.4, 0.4]
+>> Action78: put down egg
+Reward78: 0, Score 0, Done False
+
+State  79: dropped.  you are carrying:   a bird's nest you hear in the distance the chirping of a song bird.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. there is a somewhat ruined egg here. there is a broken clockwork canary here.
+Actions79: ['take egg', 'close egg', 'put nest in egg', 'take canary', 'north', 'west', 'take all', 'up', 'south', 'east', 'put down nest', 'go around forest', 'close nest']
+Qvalues79: [0.48, 0.43, 0.42, 0.4, 0.4, 0.4, 0.38, 0.36, 0.36, 0.36, 0.34, 0.33, 0.33]
+>> Action79: go around forest
+Reward79: 0, Score 0, Done False
+
+State  80: clearing  you are carrying:   a bird's nest  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions80: ['west', 'north', 'put down nest', 'go around forest', 'south', 'east', 'close nest']
+Qvalues80: [0.39, 0.38, 0.36, 0.36, 0.35, 0.35, 0.35]
+>> Action80: go around forest
+Reward80: 0, Score 0, Done False
+
+State  81: forest  you are carrying:   a bird's nest  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight.
+Actions81: ['north', 'south', 'east', 'put down nest', 'close nest', 'go around trees']
+Qvalues81: [0.39, 0.37, 0.37, 0.36, 0.36, 0.35]
+>> Action81: close nest
+Reward81: 0, Score 0, Done False
+
+State  82: closed.  you are carrying:   a bird's nest  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight. you hear in the distance the chirping of a song bird.
+Actions82: ['north', 'put down nest', 'south', 'open nest', 'east', 'go around trees']
+Qvalues82: [0.28, 0.27, 0.25, 0.25, 0.25, 0.23]
+>> Action82: south
+Reward82: 0, Score 0, Done False
+
+State  83: forest you hear in the distance the chirping of a song bird.  you are carrying:   a bird's nest  forest this is a dimly lit forest, with large trees all around. you hear in the distance the chirping of a song bird.
+Actions83: ['west', 'northwest', 'north', 'put down nest', 'open nest', 'go around trees']
+Qvalues83: [0.44, 0.44, 0.41, 0.41, 0.38, 0.36]
+>> Action83: open nest
+Reward83: 0, Score 0, Done False
+
+State  84: opened.  you are carrying:   a bird's nest  forest this is a dimly lit forest, with large trees all around.
+Actions84: ['northwest', 'west', 'north', 'close nest', 'go around trees', 'put down nest']
+Qvalues84: [0.31, 0.29, 0.28, 0.24, 0.23, 0.23]
+>> Action84: go around trees
+Reward84: 0, Score 0, Done False
+
+State  85: forest path there is a somewhat ruined egg here. there is a broken clockwork canary here.  you are carrying:   a bird's nest  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. there is a somewhat ruined egg here. there is a broken clockwork canary here.
+Actions85: ['take egg', 'close egg', 'put nest in egg', 'take canary', 'take all', 'west', 'north', 'put down nest', 'east', 'up', 'south', 'go around forest', 'close nest']
+Qvalues85: [0.42, 0.37, 0.37, 0.36, 0.34, 0.32, 0.31, 0.29, 0.28, 0.28, 0.28, 0.27, 0.27]
+>> Action85: put nest in egg
+Reward85: 0, Score 0, Done False
+
+State  86: done.  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. there is a somewhat ruined egg here. the broken jewel encrusted egg contains:   a bird's nest there is a broken clockwork canary here.
+Actions86: ['take egg', 'take all', 'close egg', 'take canary', 'west', 'up', 'north', 'go around forest', 'east', 'south', 'take nest', 'close nest']
+Qvalues86: [0.34, 0.28, 0.27, 0.25, 0.24, 0.23, 0.23, 0.23, 0.21, 0.2, 0.19, 0.17]
+>> Action86: close egg
+Reward86: 0, Score 0, Done False
+
+State  87: closed.  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. there is a somewhat ruined egg here. there is a broken clockwork canary here. you hear in the distance the chirping of a song bird.
+Actions87: ['take egg', 'open egg', 'take all', 'take canary', 'west', 'north', 'up', 'south', 'east', 'go around forest']
+Qvalues87: [0.24, 0.17, 0.15, 0.14, 0.14, 0.12, 0.11, 0.09, 0.09, 0.08]
+>> Action87: west
+Reward87: 0, Score 0, Done False
+
+State  88: forest you hear in the distance the chirping of a song bird.  you are empty handed.  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight.
+Actions88: ['north', 'south', 'east', 'go around trees']
+Qvalues88: [0.25, 0.22, 0.22, 0.22]
+>> Action88: go around trees
+Reward88: 0, Score 0, Done False
+
+State  89: forest  you are empty handed. you hear in the distance the chirping of a song bird.  forest this is a dimly lit forest, with large trees all around.
+Actions89: ['west', 'go around trees', 'south', 'east']
+Qvalues89: [0.28, 0.25, 0.24, 0.24]
+>> Action89: west
+Reward89: 0, Score 0, Done False
+
+State  90: forest path there is a somewhat ruined egg here. there is a broken clockwork canary here.  you are empty handed. you hear in the distance the chirping of a song bird.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. there is a somewhat ruined egg here. there is a broken clockwork canary here.
+Actions90: ['take egg', 'west', 'north', 'take canary', 'east', 'south', 'open egg', 'take all', 'go around forest', 'up']
+Qvalues90: [0.15, 0.13, 0.13, 0.11, 0.1, 0.1, 0.09, 0.07, 0.05, 0.05]
+>> Action90: take canary
+Reward90: 0, Score 0, Done False
+
+State  91: taken.  you are carrying:   a broken clockwork canary  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. there is a somewhat ruined egg here. you hear in the distance the chirping of a song bird.
+Actions91: ['take egg', 'open egg', 'west', 'north', 'go around forest', 'up', 'south', 'east', 'put down canary']
+Qvalues91: [0.39, 0.34, 0.33, 0.33, 0.32, 0.32, 0.31, 0.31, 0.29]
+>> Action91: north
+Reward91: 0, Score 0, Done False
+
+State  92: clearing on the ground is a pile of leaves.  you are carrying:   a broken clockwork canary  clearing you are in a clearing, with a forest surrounding you on all sides. a path leads south. there is a grating securely fastened into the ground. on the ground is a pile of leaves.
+Actions92: ['west', 'take leaves', 'south', 'east', 'put down canary', 'put canary in grating']
+Qvalues92: [0.37, 0.35, 0.35, 0.34, 0.31, 0.3]
+>> Action92: south
+Reward92: 0, Score 0, Done False
+
+State  93: forest path there is a somewhat ruined egg here.  you are carrying:   a broken clockwork canary  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. there is a somewhat ruined egg here.
+Actions93: ['take egg', 'open egg', 'up', 'north', 'go around forest', 'west', 'east', 'south', 'put down canary']
+Qvalues93: [0.41, 0.35, 0.33, 0.33, 0.33, 0.33, 0.3, 0.3, 0.29]
+>> Action93: west
+Reward93: 0, Score 0, Done False
+
+State  94: forest  you are carrying:   a broken clockwork canary you hear in the distance the chirping of a song bird.  forest this is a forest, with trees in all directions. to the east, there appears to be sunlight. you hear in the distance the chirping of a song bird.
+Actions94: ['north', 'east', 'south', 'go around trees', 'put down canary']
+Qvalues94: [0.31, 0.28, 0.27, 0.22, 0.2]
+>> Action94: south
+Reward94: 0, Score 0, Done False
+
+State  95: forest  you are carrying:   a broken clockwork canary you hear in the distance the chirping of a song bird.  forest this is a dimly lit forest, with large trees all around.
+Actions95: ['northwest', 'north', 'west', 'go around trees', 'put down canary']
+Qvalues95: [0.35, 0.32, 0.31, 0.25, 0.22]
+>> Action95: northwest
+Reward95: 0, Score 0, Done False
+
+State  96: south of house  you are carrying:   a broken clockwork canary  south of house you are facing the south side of a white house. there is no door here, and all the windows are boarded.
+Actions96: ['west', 'east', 'south', 'put down canary']
+Qvalues96: [0.34, 0.33, 0.32, 0.29]
+>> Action96: put down canary
+Reward96: 0, Score 0, Done False
+
+State  97: dropped.  you are empty handed.  south of house you are facing the south side of a white house. there is no door here, and all the windows are boarded. there is a broken clockwork canary here.
+Actions97: ['west', 'take canary', 'east', 'south']
+Qvalues97: [0.28, 0.26, 0.26, 0.25]
+>> Action97: south
+Reward97: 0, Score 0, Done False
+
+State  98: forest  you are empty handed. you hear in the distance the chirping of a song bird.  forest this is a dimly lit forest, with large trees all around. you hear in the distance the chirping of a song bird.
+Actions98: ['northwest', 'north', 'west', 'go around trees']
+Qvalues98: [0.21, 0.18, 0.18, 0.12]
+>> Action98: go around trees
+Reward98: 0, Score 0, Done False
+
+State  99: forest path there is a somewhat ruined egg here.  you are empty handed.  forest path this is a path winding through a dimly lit forest. the path heads north south here. one particularly large tree with some low branches stands at the edge of the path. there is a somewhat ruined egg here. you hear in the distance the chirping of a song bird.
+Actions99: ['take egg', 'north', 'west', 'open egg', 'south', 'east', 'go around forest', 'up']
+Qvalues99: [0.42, 0.37, 0.36, 0.34, 0.34, 0.33, 0.31, 0.3]
+>> Action99: south
+Reward99: 0, Score 0, Done False
+
+State  100: north of house  you are empty handed.  north of house you are facing the north side of a white house. there is no door here, and all the windows are boarded up. to the north a narrow path winds through the trees.
+Actions100: ['west', 'north', 'east']
+Qvalues100: [0.27, 0.25, 0.23]
+>> Action100: west
+Reward100: 0, Score 0, Done False
+
+State  101: west of house there is a small mailbox here.  you are empty handed.  west of house you are standing in an open field west of a white house, with a boarded front door. there is a small mailbox here.
+Actions101: ['west', 'north', 'open mailbox', 'south']
+Qvalues101: [0.17, 0.15, 0.13, 0.12]
+>> Action101: south
+Reward101: 0, Score 0, Done False
+
+State  102: south of house there is a broken clockwork canary here.  you are empty handed.  south of house you are facing the south side of a white house. there is no door here, and all the windows are boarded. there is a broken clockwork canary here.
+Actions102: ['west', 'east', 'take canary', 'south']
+Qvalues102: [0.24, 0.22, 0.21, 0.21]
+>> Action102: east
+Reward102: 0, Score 0, Done False
+
+State  103: behind house  you are empty handed.  behind house you are behind the white house. a path leads into the forest to the east. in one corner of the house there is a small window which is slightly ajar.
+Actions103: ['north', 'east', 'south', 'open window']
+Qvalues103: [0.27, 0.26, 0.25, 0.16]
+>> Action103: south
+Reward103: 0, Score 0, Done False
+
+State  104: south of house there is a broken clockwork canary here.  you are empty handed.  south of house you are facing the south side of a white house. there is no door here, and all the windows are boarded. there is a broken clockwork canary here.
+Actions104: ['take canary', 'west', 'east', 'south']
+Qvalues104: [0.35, 0.34, 0.31, 0.3]
+>> Action104: east
+Reward104: 0, Score 0, Done False
+
+State  105: behind house  you are empty handed.  behind house you are behind the white house. a path leads into the forest to the east. in one corner of the house there is a small window which is slightly ajar.
+Actions105: ['north', 'east', 'south', 'open window']
+Qvalues105: [0.35, 0.33, 0.32, 0.2]
+>> Action105: south
+Reward105: 0, Score 0, Done False
+
+State  106: south of house there is a broken clockwork canary here.  you are empty handed.  south of house you are facing the south side of a white house. there is no door here, and all the windows are boarded. there is a broken clockwork canary here.
+Actions106: ['take canary', 'west', 'east', 'south']
+Qvalues106: [0.4, 0.37, 0.33, 0.32]
+>> Action106: south
+Reward106: 0, Score 0, Done False
+
+State  107: forest you hear in the distance the chirping of a song bird.  you are empty handed.  forest this is a dimly lit forest, with large trees all around.
+Actions107: ['west', 'northwest', 'north', 'go around trees']
+Qvalues107: [0.37, 0.36, 0.34, 0.29]
+>> Action107: northwest
+Reward107: 0, Score 0, Done False
+
+State  108: south of house there is a broken clockwork canary here.  you are empty handed.  south of house you are facing the south side of a white house. there is no door here, and all the windows are boarded. there is a broken clockwork canary here.
+Actions108: ['west', 'take canary', 'east', 'south']
+Qvalues108: [0.47, 0.45, 0.44, 0.43]
+>> Action108: west
+Reward108: 0, Score 0, Done False
+
+State  109: west of house there is a small mailbox here.  you are empty handed.  west of house you are standing in an open field west of a white house, with a boarded front door. there is a small mailbox here.
+Actions109: ['west', 'north', 'south', 'open mailbox']
+Qvalues109: [0.37, 0.33, 0.32, 0.32]
+>> Action109: open mailbox
+Reward109: 0, Score 0, Done False
+
+State  110: opening the small mailbox reveals a leaflet.  you are empty handed.  west of house you are standing in an open field west of a white house, with a boarded front door. there is a small mailbox here. the small mailbox contains:   a leaflet
+Actions110: ['west', 'take leaflet', 'north', 'south', 'close mailbox']
+Qvalues110: [0.45, 0.43, 0.42, 0.41, 0.38]
+>> Action110: close mailbox
+Reward110: 0, Score 0, Done False
+
+State  111: closed.  you are empty handed.  west of house you are standing in an open field west of a white house, with a boarded front door. there is a small mailbox here.
+Actions111: ['west', 'north', 'south', 'open mailbox']
+Qvalues111: [0.42, 0.4, 0.38, 0.32]
+>> Action111: north
+Reward111: 0, Score 0, Done False
+
+State  112: north of house  you are empty handed.  north of house you are facing the north side of a white house. there is no door here, and all the windows are boarded up. to the north a narrow path winds through the trees.
+Actions112: ['west', 'north', 'east']
+Qvalues112: [0.34, 0.31, 0.3]
+>> Action112: east
+Reward112: 0, Score 0, Done False
+
+State  113: behind house  you are empty handed.  behind house you are behind the white house. a path leads into the forest to the east. in one corner of the house there is a small window which is slightly ajar.
+Actions113: ['north', 'east', 'south', 'open window']
+Qvalues113: [0.43, 0.39, 0.39, 0.3]
+>> Action113: east
+Reward113: 0, Score 0, Done True
+
+State  114: clearing  you are empty handed.  clearing you are in a small clearing in a well marked forest path that extends to the east and west.
+Actions114: ['west', 'go around forest', 'north', 'east', 'south']
+Qvalues114: [0.3, 0.26, 0.26, 0.25, 0.24]
+>> Action114: reset
+Reward114: 0, Score 0, Done False
+
+State  115: Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK is a registered trademark of Infocom, Inc. Revision 88 / Serial number 840726  West of House You are standing in an open field west of a white house, with a boarded front door. There is a small mailbox here.  You are empty handed.  West of House You are standing in an open field west of a white house, with a boarded front door. There is a small mailbox here.
+Actions115: ['west', 'open mailbox', 'north', 'south']
+Qvalues115: [0.36, 0.33, 0.32, 0.3]
+>> Action115: north
+Reward115: 0, Score 0, Done False
+
+State  116: north of house you are facing the north side of a white house. there is no door here, and all the windows are boarded up. to the north a narrow path winds through the trees.  you are empty handed.  north of house you are facing the north side of a white house. there is no door here, and all the windows are boarded up. to the north a narrow path winds through the trees.
+Actions116: ['west', 'north', 'east']
+Qvalues116: [0.35, 0.29, 0.29]
+>> Action116: west
+Reward116: 0, Score 0, Done False
+
+State  117: west of house there is a small mailbox here.  you are empty handed.  west of house you are standing in an open field west of a white house, with a boarded front door. there is a small mailbox here.
+Actions117: ['west', 'north', 'open mailbox', 'south']
+Qvalues117: [0.42, 0.38, 0.36, 0.36]
+>> Action117: north
+Reward117: 0, Score 0, Done False
+
+State  118: north of house  you are empty handed.  north of house you are facing the north side of a white house. there is no door here, and all the windows are boarded up. to the north a narrow path winds through the trees.
+Actions118: ['west', 'north', 'east']
+Qvalues118: [0.46, 0.43, 0.4]
+>> Action118: east
+Reward118: 0, Score 0, Done False
+
+State  119: behind house you are behind the white house. a path leads into the forest to the east. in one corner of the house there is a small window which is slightly ajar.  you are empty handed.  behind house you are behind the white house. a path leads into the forest to the east. in one corner of the house there is a small window which is slightly ajar.
+Actions119: ['north', 'east', 'south', 'open window']
+Qvalues119: [0.29, 0.28, 0.27, 0.25]
+>> Action119: open window
+Reward119: 0, Score 0, Done False
+
