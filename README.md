@@ -20,4 +20,4 @@ python train.py --rom_path ../games/{gamefilename} --lm_path {lm_path} --output_
 Get more game engines [here](https://github.com/BYU-PCCL/z-machine-games/tree/master/jericho-game-suite).
 
 ## Acknowledgements
-The code borrows from [CALM](https://github.com/princeton-nlp/calm-textgame).
+The code borrows from [CALM](https://github.com/princeton-nlp/calm-textgame) and [huggingface](https://huggingface.co/).
