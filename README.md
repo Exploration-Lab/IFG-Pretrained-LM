@@ -9,11 +9,7 @@ git clone repo
 ```
 
 Get the trained distillBERT [here](https://drive.google.com/drive/folders/1-2w-SwDzSUlEEgKL62jxLotuPUiTRTE4?usp=sharing).
-OR
-Run LM training:
-```bash
---
-```
+OR Run LM training from ```bash dbert_train``` folder.
 
 Run RL training:
 ```bash
