@@ -21,3 +21,17 @@ Get more game engines [here](https://github.com/BYU-PCCL/z-machine-games/tree/ma
 
 ## Acknowledgements
 The code borrows from [CALM](https://github.com/princeton-nlp/calm-textgame) and [huggingface](https://huggingface.co/).
+
+## Citation 
+If you want to use our work in your research, please cite:
+```
+@misc{singh2021pretrained,
+      title={Pre-trained Language Models as Prior Knowledge for Playing Text-based Games}, 
+      author={Ishika Singh and Gargi Singh and Ashutosh Modi},
+      year={2021},
+      eprint={2107.08408},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
