@@ -1,4 +1,6 @@
-# Pre-trained Language Models as Prior Knowledge for Playing Text-based Games 
+# IFG-Pretrained-LM
+
+Pre-trained Language Models as Prior Knowledge for Playing Text-based Games [[arxiv](https://arxiv.org/abs/2107.08408)]
 
 Set up:
 ```bash
