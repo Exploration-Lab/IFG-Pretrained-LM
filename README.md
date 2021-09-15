@@ -1,4 +1,4 @@
-# interactive_fiction_games
+# Pre-trained Language Models as Prior Knowledge for Playing Text-based Games 
 
 Set up:
 ```bash
